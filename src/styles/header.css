@@ -1,0 +1,21 @@
+.header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.comp {
+  display: flex;
+  gap: 35px;
+  font-size: 18px;
+  left: 580px;
+  position: absolute;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    bottom: 5px;
+    border-radius: 5px;
+}
