@@ -1,5 +1,7 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Searchbar from "./components/Searchbar";
+import Subscription from "./components/Subscription";
 import "./styles/app.css"
 
 function App() {
@@ -7,6 +9,8 @@ function App() {
     <div className="App">
      <Header/>
      <Searchbar/>
+     <Subscription/>
+    <Footer/>
     </div>
   );
 }
