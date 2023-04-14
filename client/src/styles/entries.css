@@ -1,0 +1,30 @@
+.entries{
+    height: 70px;
+    background-color: aliceblue;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+   
+}
+.p-total{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.sort{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width:190vh;
+    height: 70px;
+}
+.p-select{
+  position: relative;
+  top: 6px;
+margin-right: 10px;
+font-size: 18px;
+font-weight: 600;   
+}

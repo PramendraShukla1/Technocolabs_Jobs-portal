@@ -1,0 +1,54 @@
+.card{
+    height: auto;
+    width: 400px;
+    margin-left:20px ;
+    margin-right: 20px;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+hr{
+    color: gray;
+}
+.title-head{
+    font-size: 18px;
+    margin-left: 30px;
+    color: black;
+    font-weight: 600;
+}
+.desc{
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    line-height: 5px;
+    cursor: pointer;
+}
+.admin{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: -20px;
+}
+.btn-apply{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.btn-now{
+    width: 300px;
+    border-radius: 2px;
+}

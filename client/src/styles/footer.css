@@ -1,0 +1,65 @@
+.footer{
+    margin-top: 80px;
+}
+
+.bg-dark{
+    padding-top: 40px;
+}
+
+.row{
+    display: inline-flex;
+}
+
+/* Hr Tag*/
+hr {
+    color: azure;
+}
+
+.deep-purple{
+    width: 60px;
+    color: azure;
+}
+
+.container1{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.container2{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.container{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.p-2{
+    display: flex;
+}
+
+.social{
+    display: inline-flex;
+    list-style-type:square;
+}
+
+.payments{
+    display: inline-flex;
+    list-style-type:square;
+}
+
+a{
+    color: rgb(160, 160, 160) ;
+    text-decoration: none ;
+    padding-right: 20px;
+}
+.sub{
+    position: relative;
+    width: fit-content;
+    height: 50px;
+    border-radius: 0%;
+    top: 0px;
+    margin-left: 1px;
+}

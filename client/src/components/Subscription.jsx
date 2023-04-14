@@ -4,12 +4,12 @@ import "../styles/Subscription.css";
 const Subscription = () => {
   return (
     <div className="subs">
-      <hr className="hr" />
+      <hr />
       <div className="pera">
         <h1>
           Subscribe To Our Onlinesletter{" "}
           <span>
-            <p>
+            <p className="pera1">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
               veniam unde eaque.
             </p>
@@ -27,6 +27,7 @@ const Subscription = () => {
           Subscribe
         </button>
       </div>
+      <hr />
     </div>
   );
 };
