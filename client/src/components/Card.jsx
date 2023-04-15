@@ -8,23 +8,26 @@ import ContactsIcon from '@mui/icons-material/Contacts';
 import DescriptionIcon from '@mui/icons-material/Description';
 import SupervisorAccountTwoToneIcon from '@mui/icons-material/SupervisorAccountTwoTone';
 
-const Card = () => {
+const Card = ({title,minsal,maxsal,description,hiringcompany,email,phnumber,address,image}) => {
+
+
+
   return (
     <div className='card'>
       <div className="img">
-        <img src="https://tse2.mm.bing.net/th?id=OIP.c8Zd3y_4je_5b76IcEt4VAHaGi&pid=Api&P=0" alt="" />
+        <img src={image} alt="" />
       </div>
       <hr />
    <div className="title">
-    <h1 className='title-head'>HR Executive Jobs</h1>
+    <h1 className='title-head'>{title}</h1>
    </div>
    <div className="desc">
-    <p ><BusinessIcon/>TechnoAnalyze</p>
-    <p><CurrencyRupeeIcon/>400000-500000</p>
-    <p><PhoneIcon/>1234567890</p>
-    <p><EmailIcon/>technoanalyze@gmail.com</p>
-    <p><DescriptionIcon/>Analyze Weather and Climatic Conditions</p>
-    <p><ContactsIcon/>Mumbai main road, 2nd lane, Mumbai</p>
+    <p ><BusinessIcon/>{hiringcompany}</p>
+    <p><CurrencyRupeeIcon/>{minsal}-{maxsal}</p>
+    <p><PhoneIcon/>{phnumber}</p>
+    <p><EmailIcon/>{email}</p>
+    <p><DescriptionIcon/>{description}</p>
+    <p><ContactsIcon/>{address}</p>
     </div>
     <hr />
 <div className="admin">
